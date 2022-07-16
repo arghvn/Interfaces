@@ -40,3 +40,17 @@ func main() {
 	calculate(rect)
 
 }
+
+// output : Area = 28
+
+// Let's see how this program works:
+
+// Working on Interface Implementation
+
+// In the above example, we have created an interface named Shape with a method area().
+//  Here, we are trying to implement this interface by the Rectangle struct.
+
+// To access this method, we have created a calculate() method
+// Here, the method takes a variable of Shape named s and uses it to call the area() method.
+
+// Since the structure implements the interface, we have called calculate() using the variable of structure
